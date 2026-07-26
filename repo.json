@@ -1,0 +1,59 @@
+{
+  "$schemaVersion": "2.0.0",
+  "$schema": "https://canonical.o3de.org/o3de-repo-2.0.0.json",
+  "repo": {
+    "name": "org.o3de.repo.unifiedmultiplayergem",
+    "display_name": "UnifiedMultiplayerGem Template Repo",
+    "description": "Family repository for the UnifiedMultiplayerGem template, hoisted from the engine with full git history.",
+    "type": "repo"
+  },
+  "origin": {
+    "name": "The Linux Foundation",
+    "url": "https://www.linuxfoundation.org"
+  },
+  "licenses": [
+    {
+      "license_identifier": "Apache-2.0",
+      "display_name": "Apache License 2.0",
+      "relative_path": "LICENSE_APACHE2.TXT",
+      "scopes": [
+        "All source code"
+      ]
+    },
+    {
+      "license_identifier": "MIT",
+      "display_name": "MIT License",
+      "relative_path": "LICENSE_MIT.TXT",
+      "scopes": [
+        "All source code"
+      ]
+    }
+  ],
+  "canonical_tags": [
+    "Repo"
+  ],
+  "children": {
+    "engines": [],
+    "projects": [],
+    "gems": [],
+    "repos": [],
+    "templates": [
+      "Templates/UnifiedMultiplayerGem/template.2-0-0.json"
+    ],
+    "overlays": [
+      "Overlays/unifiedmultiplayergem.android/overlay.json",
+      "Overlays/unifiedmultiplayergem.ios/overlay.json",
+      "Overlays/unifiedmultiplayergem.linux/overlay.json",
+      "Overlays/unifiedmultiplayergem.mac/overlay.json",
+      "Overlays/unifiedmultiplayergem.windows/overlay.json"
+    ]
+  },
+  "remote": {
+    "engines": [],
+    "projects": [],
+    "gems": [],
+    "templates": [],
+    "repos": [],
+    "overlays": []
+  }
+}
