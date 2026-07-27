@@ -6,10 +6,13 @@
         "display_name": "UnifiedMultiplayerGem Android Overlay",
         "description": "Platform overlay (android) for org.o3de.template.unifiedmultiplayergem",
         "version": "0.0.0",
-        "type": "overlay",
-        "target": "org.o3de.template.unifiedmultiplayergem",
-        "platform": "android"
+        "type": "overlay"
     },
+    "extends": "org.o3de.template.unifiedmultiplayergem>=0.0.0",
+    "precedence": 10,
+    "platforms": [
+        "android"
+    ],
     "origin": {
         "name": "The Linux Foundation",
         "url": "https://www.linuxfoundation.org"
